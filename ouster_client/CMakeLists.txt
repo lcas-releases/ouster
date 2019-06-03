@@ -10,7 +10,7 @@ find_package(PkgConfig REQUIRED)
 pkg_check_modules(jsoncpp REQUIRED jsoncpp)
 
 #if (DEFINED CATKIN_DEVEL_PREFIX)
-#  find_package(catkin REQUIRED)
+find_package(catkin REQUIRED)
 #  message(STATUS "Catkin env set, compiling ${PROJECT_NAME} with ROS")
 
   catkin_package(
