@@ -2,6 +2,11 @@
 Changelog for package ouster_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2019-06-03)
+------------------
+* removed devel check
+* Contributors: Marc Hanheide
+
 0.1.2 (2019-06-03)
 ------------------
 * Merge pull request `#3 <https://github.com/LCAS/ouster_example/issues/3>`_ from LCAS/scosar-dev
