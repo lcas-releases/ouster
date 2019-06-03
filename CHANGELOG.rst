@@ -2,6 +2,16 @@
 Changelog for package ouster_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2019-06-03)
+------------------
+* Merge pull request `#3 <https://github.com/LCAS/ouster_example/issues/3>`_ from LCAS/scosar-dev
+  Included roscpp in package.xml
+* Included roscpp to package.xml of ouster_client
+* Fix header dependencies
+* Typo in CMakelist
+* Fix CMakelist of ouster_client
+* Contributors: Serhan Cosar, scosar
+
 0.1.1 (2019-05-31)
 ------------------
 * Removing ouster_viz (`#2 <https://github.com/LCAS/ouster_example/issues/2>`_)
