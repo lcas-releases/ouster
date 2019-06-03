@@ -2,6 +2,14 @@
 Changelog for package ouster_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.6 (2019-06-03)
+------------------
+* Merge pull request `#5 <https://github.com/LCAS/ouster_example/issues/5>`_ from LCAS/scosar-dev
+  Fix missing executables
+* Fix executable paths
+* Fix missing executables
+* Contributors: Serhan Cosar, scosar
+
 0.1.5 (2019-06-03)
 ------------------
 * Merge pull request `#4 <https://github.com/LCAS/ouster_example/issues/4>`_ from LCAS/scosar-dev
