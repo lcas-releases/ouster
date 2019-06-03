@@ -54,3 +54,7 @@ target_link_libraries(os1_cloud_node ouster_ros ${catkin_LIBRARIES})
 
 add_executable(img_node src/img_node.cpp)
 target_link_libraries(img_node ouster_ros ${catkin_LIBRARIES})
+
+install(FILES os1.launch
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
