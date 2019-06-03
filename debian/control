@@ -1,0 +1,12 @@
+Source: ros-kinetic-ouster-client
+Section: misc
+Priority: extra
+Maintainer: Serhan Cosar <scosar@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), libjsoncpp-dev, libjsoncpp1, ros-kinetic-catkin, ros-kinetic-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ouster-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libjsoncpp-dev, libjsoncpp1, ros-kinetic-roscpp
+Description: The os1_client package
