@@ -2,6 +2,11 @@
 Changelog for package ouster_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.4 (2019-06-03)
+------------------
+* Uncomment a line in CMakeLists
+* Contributors: scosar
+
 0.1.3 (2019-06-03)
 ------------------
 * removed devel check
