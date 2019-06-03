@@ -9,9 +9,9 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG")
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(jsoncpp REQUIRED jsoncpp)
 
-if (DEFINED CATKIN_DEVEL_PREFIX)
-  find_package(catkin REQUIRED)
-  message(STATUS "Catkin env set, compiling ${PROJECT_NAME} with ROS")
+#if (DEFINED CATKIN_DEVEL_PREFIX)
+#  find_package(catkin REQUIRED)
+#  message(STATUS "Catkin env set, compiling ${PROJECT_NAME} with ROS")
 
   catkin_package(
     INCLUDE_DIRS include
@@ -19,9 +19,9 @@ if (DEFINED CATKIN_DEVEL_PREFIX)
     DEPENDS jsoncpp
     CATKIN_DEPENDS
   )
-else()
-  message(STATUS "Catkin env not set, compiling ${PROJECT_NAME} without ROS")
-endif()
+#else()
+#  message(STATUS "Catkin env not set, compiling ${PROJECT_NAME} without ROS")
+#endif()
 
 include_directories(include)
 include_directories(${jsoncpp_INCLUDE_DIRS})
