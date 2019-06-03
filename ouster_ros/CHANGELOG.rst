@@ -2,6 +2,15 @@
 Changelog for package ouster_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2019-06-03)
+------------------
+* Fix header dependencies
+* Added tf2_geometry_msgs in CMakelist and package.xml
+* Fix tf2 error in build
+* Remove visualization example code and Fix timestamp problem
+* Remove dependencies on ouster_viz
+* Contributors: Serhan Cosar
+
 0.1.1 (2019-05-31)
 ------------------
 * Removing ouster_viz (`#2 <https://github.com/LCAS/ouster_example/issues/2>`_)
